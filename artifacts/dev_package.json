@@ -35,7 +35,7 @@
 		],
 		"testServers": []
 	},
-	"name": "oe-devpack-1",
+	"name": "oe-devpack-12",
 	"description": null,
 	"ver": "22.7.13.1732",
 	"enableCICD": true,
