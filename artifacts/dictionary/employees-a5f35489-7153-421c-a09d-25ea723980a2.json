@@ -80,9 +80,9 @@
 	"foreignKeys": [],
 	"name": "employees",
 	"description": "Employees",
-	"ver": "22.7.13.1733",
+	"ver": "22.7.13.1957",
 	"enableAudit": false,
-	"includeDataInPackage": false,
+	"includeDataInPackage": true,
 	"package": "409d4fbc-8a77-4902-8ddc-527116253730",
 	"rolesRead": [],
 	"rolesWrite": []
