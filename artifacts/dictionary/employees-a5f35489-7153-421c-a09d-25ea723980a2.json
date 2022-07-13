@@ -1,0 +1,89 @@
+{
+	"id": "a5f35489-7153-421c-a09d-25ea723980a2",
+	"createdAt": "2022-01-13T12:12:40.168Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "ID",
+			"fieldType": "text",
+			"description": "Employee ID",
+			"required": true,
+			"id": "19ad8f5b-5d46-4f41-b904-81c7ac333ed5",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"fieldName": "fname",
+			"fieldType": "text",
+			"description": "First Name",
+			"required": true,
+			"id": "78baf896-cf67-4f65-ba9f-b53457142a63"
+		},
+		{
+			"fieldName": "lname",
+			"fieldType": "text",
+			"description": "Last Name",
+			"id": "d801e222-80b4-4f2f-8686-227b2386c674"
+		},
+		{
+			"fieldName": "dob",
+			"fieldType": "text",
+			"description": "Date of Birth",
+			"id": "15acd992-7d4b-497b-adf1-340db16edcdb"
+		},
+		{
+			"fieldName": "contact",
+			"fieldType": "text",
+			"description": "Contact Number",
+			"id": "14dc1f03-0b42-4590-b402-844d4d0fbf80"
+		},
+		{
+			"fieldName": "email",
+			"fieldType": "text",
+			"description": "Email",
+			"required": true,
+			"id": "ff53ebcc-e5e6-40fd-ae78-e3edfd18052a"
+		},
+		{
+			"fieldName": "doj",
+			"fieldType": "text",
+			"description": "Date of Joining",
+			"id": "3971cb8b-3baa-4094-b80b-95553edaa49f"
+		},
+		{
+			"fieldName": "position",
+			"fieldType": "text",
+			"description": "Position",
+			"id": "b89efca5-f73d-44c1-9504-3726b9253f6d"
+		},
+		{
+			"fieldName": "branch",
+			"fieldType": "text",
+			"description": "Branch City",
+			"id": "2f02ab96-a087-47ea-b076-7a23b537b0f3"
+		},
+		{
+			"fieldName": "leaves",
+			"fieldType": "decimal",
+			"description": "Leave Qouta",
+			"default": "22",
+			"id": "219f3c60-66db-411b-823c-55ed8f7e3d60"
+		},
+		{
+			"fieldName": "uname",
+			"fieldType": "text",
+			"description": "User Name",
+			"id": "a8ffde08-a0cb-46dd-9a69-22c1e54863ac"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "employees",
+	"description": "Employees",
+	"ver": "22.7.13.1733",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "409d4fbc-8a77-4902-8ddc-527116253730",
+	"rolesRead": [],
+	"rolesWrite": []
+}

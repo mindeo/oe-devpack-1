@@ -32,17 +32,24 @@
 			"  }",
 			"}",
 			""
-		]
+		],
+		"testServers": []
 	},
 	"name": "oe-devpack-1",
 	"description": null,
-	"ver": "22.7.13.1656",
+	"ver": "22.7.13.1732",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
+	"dictionary": [
+		{
+			"id": "a5f35489-7153-421c-a09d-25ea723980a2",
+			"name": "employees",
+			"description": "Employees"
+		}
+	],
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [],
